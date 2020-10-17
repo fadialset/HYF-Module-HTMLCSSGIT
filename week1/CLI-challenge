@@ -1,0 +1,12 @@
+1: how to creat a hidden file or folder with CLI?
+to creat a hidden folder I will use mkdir .hiddenfolder
+to creat a hidden file I will use touch .hiddenfile
+to display the hidden file or folder i will use li -a
+
+2:how do I creat multiple nested directories ?
+i will use the command mkdir -p c/users/myusername/these/folders/are/just/for/fun
+
+3:how do I append a message to a file ?
+I will use (echo "first message" ; echo "secound message") >> CLI-challenge
+
+that's it :)
