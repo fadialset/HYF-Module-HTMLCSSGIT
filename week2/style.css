@@ -1,0 +1,49 @@
+/********* Global proporties *********/
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Gloria+Hallelujah&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background-color: #0c0032;
+    color: #fff;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+}
+
+/********* headings *********/
+
+h1, h2 {
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    background-color: #190061;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #240090;
+    
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    background-color: #3500d3;
+    padding: 1rem;
+}
+p{
+    background-color: #282828;
+    padding: 0.5rem;
+}
