@@ -14,8 +14,26 @@ body {
     margin: 0 auto;
 }
 
-section {
+main {
+    max-width: 90%;
     margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section ul li {
+    border: 2px solid white;
+    margin: 10px;
+    width: 20%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 2px;
+    background-color: white;
 }
 
 /********* headings *********/
@@ -35,7 +53,6 @@ h1 {
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
     background-color: #240090;
-    
 }
 
 h3 {
@@ -43,7 +60,11 @@ h3 {
     background-color: #3500d3;
     padding: 1rem;
 }
-p{
+
+p {
     background-color: #282828;
     padding: 0.5rem;
 }
+
+/* grid flex */
+
