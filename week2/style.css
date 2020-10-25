@@ -1,48 +1,32 @@
 /********* Global proporties *********/
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Gloria+Hallelujah&family=Poppins&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    margin: 0 auto;
+    padding: 0 auto;
     font-size: 20px;
     background-color: #0c0032;
     color: #fff;
-    margin: 0 auto;
-}
-
-main {
-    max-width: 90%;
-    margin: 0 auto;
 }
 
 ul {
-    list-style-type: none;
-}
-
-section ul li {
-    border: 2px solid white;
-    margin: 10px;
-    width: 20%;
+    list-style: none;
+    padding: 0;
 }
 
 img {
     display: block;
+    margin: 0 auto;
     max-width: 100%;
-    margin: 2px;
+    max-height: 200px;
     background-color: white;
 }
 
 /********* headings *********/
 
-h1, h2 {
-    padding: 2rem;
+h1, h2 , h3 {
     text-align: center;
     text-transform: uppercase;
-    text-align: center;
 }
 
 h1 {
@@ -58,13 +42,23 @@ h2 {
 h3 {
     font-family: 'Poppins', sans-serif;
     background-color: #3500d3;
-    padding: 1rem;
 }
 
-p {
-    background-color: #282828;
-    padding: 0.5rem;
+
+
+/* the grids */
+
+#grid-floats {
+    overflow: hidden;
 }
 
-/* grid flex */
+#grid-floats .grid-item {
+    float: left;
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
