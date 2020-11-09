@@ -1,14 +1,18 @@
+/* Basic */
 body {
     background-image: url(https://i.ibb.co/Lx61B4v/moroccan-flower.png  );
     font-family: Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .container {
     border: 3px solid black;
-    margin: 10px;
+    margin: .5rem;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "header header" "info education" "work skills" "languages courses" "footer footer";
+    column-gap: 10%;
+    align-content: center;
 }
 
 header {
@@ -18,99 +22,90 @@ header {
 
 section {
     border-bottom: 1px solid black;
-    margin: 10px;
+    margin: .5rem;
 }
 
-.my-img {
+.headerprofile-image {
     margin: 10px;
     width: 12.5rem;
     flex: 1;
 }
 
-.my-img img {
+.headerprofile-image img {
     max-width: 100%;
-    border-radius: 200px;
+    border-radius: 10rem;
 }
 
-h1 {
+.header-title {
     flex: 2;
-    text-transform: uppercase;
     text-align: center;
     align-self: center;
     font-family: serif;
     font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/* grids */
 .personal-info {
     grid-area: info;
-    align-self: start;
-    justify-self: start;
-  
-    padding: 10px 5px;
+    padding: .5rem .25rem;
 }
 
 .Education {
     grid-area: education;
-    align-self: start;
-    justify-self: end;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
 .work-experince {
     grid-area: work;
-    align-self: start;
-    justify-self: start;
 }
 
 .skills {
     grid-area: skills;
-    align-self: start;
-    justify-self:end;
 }
 
 .languages {
     grid-area: languages;
-    align-self: start;
-    justify-self: start;
 }
 
 .courses {
     grid-area: courses;
-    align-self: start;
-    justify-self: end;
 }
-
-h2 {
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    text-transform: uppercase;
-}
-
+/* footer */
 footer {
     background-color: #414040;
-    padding: 30px;
+    padding: 1.5rem;
     grid-area: footer;
     display: flex;
 }
-footer p{
-    color:#ffff;
+
+footer p {
+    color: #ffff;
 }
 
-.footer1{
+.footer1 {
     flex: 1;
 }
+
 .social-links {
     list-style: none;
 }
 
 .social-links li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .social-links li:last-child {
